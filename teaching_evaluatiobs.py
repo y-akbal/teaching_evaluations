@@ -40,5 +40,5 @@ def return_comments(file, size = 10, seed = 0):
     average_polarity = sum(file.loc[chosen_indices,"Value"])/size
     return comments, average_polarity
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     print(return_comments(file))
